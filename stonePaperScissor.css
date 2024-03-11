@@ -200,3 +200,36 @@ footer{
         margin-bottom: 20vh;
     }
 }
+@media (max-width:420px){
+    .image{
+        max-height: 5vh;
+        max-width: auto;
+        border-radius: 50%;
+    }
+    .imagenot{
+        max-height: 5vh;
+        max-width: auto;
+        border-radius: 50%;
+    }
+    .imagegame{
+        height: 5vh;
+    }
+    .same{
+        font-size: 1.2rem;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+    .result{
+        margin-top: 15vh;
+        font-size: 1.2rem;
+        color: rgb(255, 0, 0);
+    }
+    .select{
+        margin-left: 3vw;
+        margin-bottom: 20vh;
+    }
+    .selectnot{
+        margin-right: 5vw;
+        margin-bottom: 20vh;
+    }
+}
