@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="stonePaperScissor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="parentnav">
+                <li class="navi"><a href="gamecontainer.html">Home</a></li>
+                <li class="navi"><a href="stonePaperScissorlogin.html">Login</a></li>
+                <li class="navi" id="restart"><a href="#">Restart</a></li>
+                <li class="navi" id="contact"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="gamecontainer">
+            <div class="container">
+                <div id="selectors">
+                    <ul class="parentselector">
+                        <li class="select" id="stone"><img class="image" src="stone.png" alt="stone"></li>
+                        <li class="select" id="paper"><img class="image" src="paper.png" alt="paper"></li>
+                        <li class="select" id="scissor"><img class="image" src="scissor.png" alt="scissor"></li>
+                    </ul>
+                </div>
+                <div class="right" id="parentyou">
+                    <div id="youselect"><img class="imagegame" src="stone.png" alt="Select"></div>
+                    <div class="same you" id="yourscore">0</div>
+                    <div class="same you">You</div>
+                </div>
+                <div class="right" id="vscontainer">
+                    <img class="imagegame" id="vs" src="vsimage2.jpg" alt="vs">
+                    <div class="result"><div id="result">Choose</div></div>
+                </div>
+                <div class="right" id="parentcomp">
+                    <div id="compselect"><img class="imagegame" src="stone.png" alt="Select"></div>
+                    <div class="same" id="compscore">0</div>
+                    <div class="same">Computer</div>
+                </div>
+                <div id="selectorsnot">
+                    <ul class="compselector">
+                        <li class="selectnot" id="stone"><img class="imagenot" src="stone.png" alt="stone"></li>
+                        <li class="selectnot" id="paper"><img class="imagenot" src="paper.png" alt="paper"></li>
+                        <li class="selectnot" id="scissor"><img class="imagenot" src="scissor.png" alt="scissor"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>&copy; 2024 Stone Paper Scissor Game. All Rights Reserved.</div>
+    </footer>
+    <script src="stonePaperScissor.js"></script>
+</body>
+</html>
