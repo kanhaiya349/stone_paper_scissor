@@ -97,10 +97,12 @@ main{
 .foot1{
     position: absolute;
     top: 95vh;
+    color: rgba(0, 0, 0, 0.192);
 }
 .foot2{
     position: absolute;
     top: 97vh;
+    color: rgba(0, 0, 0, 0.192);
 }
 @media (max-width:1200px){
     .game{
@@ -158,6 +160,15 @@ main{
         display: grid;
         grid-template-columns: repeat(3,100px);
         grid-template-rows: repeat(3,100px);
+    }
+}
+@media (max-width:350px){
+    .foot1{
+        position: absolute;
+        top: 92vh;
+    }
+    .nextround{
+        height: 40px;
     }
 }
 @media (max-height:890px){
