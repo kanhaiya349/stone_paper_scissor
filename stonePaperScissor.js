@@ -14,18 +14,22 @@ reset.addEventListener("click", () => {
     location.reload();
 })
 
-const contact=document.querySelector("#contact");
-contact.addEventListener("click",() => {
-    let a=prompt("Enter 1 if you want to call else enter anything");
-    if(a==="1"){
+const contact = document.querySelector("#contact");
+contact.addEventListener("click", () => {
+    let a = prompt("Enter 1 if you want to call else enter anything");
+    if (a === "1") {
         const phoneNumber = '+919508920251';
-            const telLink = document.createElement('a');
-            telLink.href = 'tel:' + phoneNumber;
-            document.body.appendChild(telLink);
-            telLink.click();
+        const telLink = document.createElement('a');
+        telLink.href = 'tel:' + phoneNumber;
+        document.body.appendChild(telLink);
+        telLink.click();
+        // Remove the link after a small delay to ensure the call is initiated
+        setTimeout(() => {
             document.body.removeChild(telLink);
+        }, 100);
     }
-})
+});
+
 
 const computer1 = () => {
     let arr=["stone","paper","scissor"];

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ticTacToe.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tictactoelogin.html">Login</a>
+            <a href="ticTacToe.html">Restart</a>
+            <a href="#foot2" id="Contact">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="main1">
+            <div class="user">
+                <div class="image1"><img class="image2" src="userimage.jpg" alt="user"></div>
+                <div class="scorecontainer"><div class="user1score">0</div></div>
+                <div class="userscore" id="player1">User1</div>
+            </div>
+            <div class="gamecontainer">
+                <div class="game bl bt"></div>
+                <div class="game bt"></div>
+                <div class="game bt br"></div>
+                <div class="game bl"></div>
+                <div class="game"></div>
+                <div class="game br"></div>
+                <div class="game bl bb"></div>
+                <div class="game bb"></div>
+                <div class="game bb br"></div>
+            </div>
+            <div class="comp">
+                <div class="image1"><img class="image2" src="userimage.jpg" alt="Comp"></div>
+                <div class="scorecontainer"><div class="user2score">0</div></div>
+                <div class="userscore" id="player2">User2</div>
+            </div>
+        </div>
+        <div class="main2">
+            <h3 class="wins"></h3>
+            <button class="nextround">Next Round</button>
+        </div>
+    </main>
+    <footer>
+        <div class="foot1">&copy; 2024 Stone Paper Scissor Game. All Rights Reserved.</div>
+        <div class="foot2" id="foot2">Contact us:+919508920251</div>
+    </footer>
+    <script src="ticTacToe.js"></script>
+</body>
+</html>
