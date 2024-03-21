@@ -132,20 +132,9 @@ main{
     a{
         font-size: 1.2rem;
     }
-    #userimg1{
-        margin-left: 10px;
-    }
 }
 @media (max-width:432px){
     .game{
         font-size: 3vh;
     }
-    #userimg1{
-        margin-left: 25px;
-    }
-    
-    #userimg2{
-        margin-left: 10px;
-    }
-
 }
