@@ -160,3 +160,23 @@ main{
         grid-template-rows: repeat(3,100px);
     }
 }
+@media (max-height:890px){
+    .user{
+        margin: 0;
+    }
+    .gamecontainer{
+        margin: 0;
+        margin-top: 15px;
+    }
+    .comp{
+        margin: 0;
+    }
+    .nextround{
+        margin: 0;
+    }
+}
+@media (max-height:737px){
+    .wins{
+        margin: 0;
+    }
+}
