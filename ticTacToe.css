@@ -96,7 +96,7 @@ main{
 /* Footer */
 .foot1{
     position: absolute;
-    top: 95vh;
+    top: 94vh;
     color: rgba(0, 0, 0, 0.192);
 }
 .foot2{
@@ -162,7 +162,7 @@ main{
         grid-template-rows: repeat(3,100px);
     }
 }
-@media (max-width:350px){
+@media (max-width:400px){
     .foot1{
         position: absolute;
         top: 92vh;
