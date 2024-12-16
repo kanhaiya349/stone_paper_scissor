@@ -14,7 +14,7 @@ body{
     color: white;
     font-size: 3rem;
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 4vh;
     margin-bottom: -10vh;
 }
 .content{
@@ -25,10 +25,11 @@ body{
     align-items: center;
     width: 100%;
     min-height: 100%;
+    gap: 10px;
 }
 a{
     text-decoration: none;
-    color: #09fb01;
+    color: #01fb22;
     font-size: 3rem;
     margin: 2vw;
     margin-top: 0;

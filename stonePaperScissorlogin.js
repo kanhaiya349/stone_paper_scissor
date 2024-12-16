@@ -33,12 +33,6 @@ input2.addEventListener("input", () => {
 const submitButton = document.querySelector("#submit");
 const incorrect=document.querySelector(".incorrectp");
 submitButton.addEventListener("click", (event) => {
-    if (input1.value === "Kanhaiyashuklagarg@gmail.com" && input2.value === "Iluvgame") {
-        window.location.href="stonePaperScissor.html";
+    window.location.href="stonePaperScissor.html";
         event.preventDefault();
-    }
-    else{
-        incorrect.style.opacity=1;
-        event.preventDefault();
-    }
 });
